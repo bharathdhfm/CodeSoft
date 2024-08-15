@@ -1,0 +1,133 @@
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    background: #000;
+    color: #1b7ddf;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+    max-width: 1200px;
+}
+
+header {
+    background: #007bff;
+    color: #f0eaea;
+    padding: 2rem 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 10px 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+}
+
+section {
+    padding: 2rem 0;
+    background: #fff;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #007bff;
+    font-size: 2rem;
+}
+
+#about .profile-pic {
+    display: block;
+    margin: 1rem auto;
+    border-radius: 0%;
+    width: 200px;
+    height: 250px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+#skills ul li {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 15px;
+    background: #007bff;
+    color: #fff;
+    border-radius: 30px;
+    transition: background 0.3s ease;
+}
+
+#skills ul li:hover {
+    background: #0056b3;
+}
+
+#projects .project {
+    margin-bottom: 3rem;
+}
+
+#projects .project h3 {
+    margin: 0;
+    padding: 1.5rem 0;
+    color: #343a40;
+    font-size: 2rem;
+}
+
+#projects .project img {
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin: 1rem 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#resume a {
+    display: block;
+    width: fit-content;
+    margin: 1rem auto;
+    padding: 0.75rem 2rem;
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    text-align: center;
+    transition: background 0.3s ease;
+}
+
+#resume a:hover {
+    background: #0056b3;
+}
+
+#contact p {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+footer {
+    background: #007bff;
+    color: #1b1a1a;
+    text-align: center;
+    padding: 1rem 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+}
